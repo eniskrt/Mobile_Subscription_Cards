@@ -1,0 +1,77 @@
+:root {
+    --body-color: #f1f1f6;
+    --main-color: #f4f5fa;
+    --font-color: #171435;
+    --first-shadow:#FFFBEC;
+    --second-shadow:#F9ECFF;
+    --third-shadow:#ECEEFF;
+
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    min-height: 100vh;
+    background-color: var(--body-color);
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+  }
+  main{
+    background-color: var(--main-color);
+    box-shadow: 0px 47px 57px -26px rgba(83, 83, 144, 0.14);
+  }
+  .card{
+    padding: 40px;
+  }
+  .card-body{
+    padding: 0px!important;
+  }
+  p, h1, h3, h5{
+    color: var(--font-color)!important;
+  }
+
+  /* Buttons */
+  .btn{
+    background-color: var(--body-color);
+    box-shadow: 0px 4px 0px 0px #E7E7FB;
+    color: var(--font-color)!important;
+  }
+  .btn:hover{
+    border: 1px solid var(--font-color);
+  }
+  footer .btn{
+    background-color: var(--font-color);
+    color: var(--body-color)!important;
+  }
+  footer .btn:hover{
+    border: 1px solid var(--font-color);
+    color: var(--font-color)!important;
+  }
+  .card div.buttons{
+    padding-top: 40px;
+  }
+
+  /* Font Sizes */
+  .card p{
+    font-size: 14px;
+  }
+  h5{
+    font-size: 18px!important;
+  }
+  h1{
+    font-size: 32px;
+  }
+  h3{
+    font-size: 18px;
+  }
+  .color-chart-1{
+    box-shadow: -15px -15px var(--first-shadow);
+  }
+  .color-chart-2{
+    box-shadow: -15px -15px var(--second-shadow);
+  }
+  .color-chart-3{
+    box-shadow: -15px -15px var(--third-shadow);
+  }
